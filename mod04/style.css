@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.result img {
+  width: 30%;
+  height: 300px;
+  object-fit: contian;
+  margin-right: 1rem;
+}
+
+.result .description {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
